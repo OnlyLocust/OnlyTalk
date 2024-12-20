@@ -12,7 +12,7 @@ const Users = ({ sender }) => {
     useEffect( () => {
         const getUser = async () => {
             try {
-                const allusers = await axios.get('http://localhost:8000/user/getusers')
+                const allusers = await axios.get('https://onlytalk.onrender.com/user/getusers')
                 const addusers = [...allusers.data]
                 setUsers(addusers)
                 

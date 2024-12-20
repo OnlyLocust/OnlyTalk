@@ -15,7 +15,7 @@ const Chat = ({ sender }) => {
   const getMessages = async () => {
     try {
       const msg = await axios.get(
-        `http://localhost:8000/chats/${sender}/${receiver}`
+        `https://onlytalk.onrender.com/chats/${sender}/${receiver}`
       );
       const m1 = msg.data.msgs1;
       const m2 = msg.data.msgs2;

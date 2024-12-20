@@ -11,7 +11,7 @@ const Login = ({setSender , sender}) => {
   const login = async (data) => {
 
     try {
-      const loginData = await axios.post('http://localhost:8000/user/login' , data);
+      const loginData = await axios.post('https://onlytalk.onrender.com/user/login' , data);
       setSender(data.username)
 
       
