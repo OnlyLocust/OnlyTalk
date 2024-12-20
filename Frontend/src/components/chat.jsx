@@ -40,7 +40,7 @@ const Chat = ({ sender }) => {
 
   const addMsg = async (msg) => {
     try {
-      const added = await axios.put(`http://localhost:8000/chats/${sender}/${receiver}` , {message : msg})
+      const added = await axios.put(`https://onlytalk.onrender.com/chats/${sender}/${receiver}` , {message : msg})
       
     } catch (error) {
       console.log(error);
