@@ -1,0 +1,27 @@
+.box{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading{
+    text-align: center;
+}
+
+.userbox{
+    cursor: pointer;
+    text-align: center;
+    width: auto;
+    min-width: 20vw;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.link{
+    text-decoration: none;
+}

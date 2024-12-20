@@ -1,0 +1,42 @@
+.box{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin:20vh auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.box > .inputbox{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    /* min-width: 50%; */
+    width: 60%;
+    /* max-width: 80%; */
+    text-align: center;
+
+}
+
+
+.heading{
+    text-align: center;
+}
+
+.signup{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    width: 40%;
+    cursor: pointer;
+    background-color: lightgray;
+}
+.signup:hover{
+    background-color: rgb(187, 187, 187);
+   
+}
